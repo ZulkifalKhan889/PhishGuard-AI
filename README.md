@@ -17,7 +17,7 @@ with **98.95% accuracy**.
 
 <br/>
 
-[🚀 Live Demo](https://phishguard-ai889.streamlit.app) · [📊 Model Performance](#-model-performance) · [⚙️ How It Works](#-how-it-works) · [🛠️ Installation](#-installation)
+[🚀 Live Demo](https://phishguard-ai889.streamlit.app) · [📊 Model Performance](#model-performance) · [🛠️ Installation](#installation)
 
 <br/>
 
@@ -250,7 +250,7 @@ Detects specific known attack patterns.
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 ### Cross Validation Results (5-Fold Stratified)
 
@@ -332,7 +332,7 @@ PhishGuard_AI/
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
@@ -453,16 +453,16 @@ The model was trained on URLs collected up to May 2026. New phishing techniques 
 ## 📸 Screenshots
 
 ### URL Checker Page
-![URL Checker](D:\Projects\Url_detector\screenshots\url_checker.png)
+![URL Checker](screenshots/url_checker.png)
 
 ### Phishing Detection Result
-![Phishing Result](D:\Projects\Url_detector\screenshots\phishing_result.png)
+![Phishing Result](screenshots/phishing_result.png)
 
 ### Model Performance Page
-![Model Performance](D:\Projects\Url_detector\screenshots\model_performance.png)
+![Model Performance](screenshots/model_performance.png)
 
 ### SHAP Explainability Chart
-![SHAP Chart](D:\Projects\Url_detector\screenshots\shap_chart.png)
+![SHAP Chart](screenshots/shap_chart.png)
 
 ---
 
