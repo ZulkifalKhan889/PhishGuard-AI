@@ -19,9 +19,7 @@ with **98.95% accuracy**.
 
 [🚀 Live Demo](https://phishguard-ai889.streamlit.app) · [📊 Model Performance](#model-performance) · [🛠️ Installation](#installation)
 
-<br/>
 
-![PhishGuard Dashboard](D:\Projects\Url_detector\screenshots\url_checker.png)
 
 </div>
 
