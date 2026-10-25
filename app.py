@@ -1,4 +1,5 @@
 
+import shap
 import streamlit as st
 import pickle
 import sys
@@ -117,8 +118,7 @@ def load_all_models():
     base = os.path.dirname(os.path.abspath(__file__))
     with open(os.path.join(base, 'models', 'final_model.pkl'), 'rb') as f:
         model = pickle.load(f)
-    with open(os.path.join(base, 'models', 'shap_explainer.pkl'), 'rb') as f:
-        explainer = pickle.load(f)
+    explainer = shap.TreeExplainer(model)
     with open(os.path.join(base, 'models', 'feature_columns.pkl'), 'rb') as f:
         feature_columns = pickle.load(f)
     with open(os.path.join(base, 'models', 'cv_results.pkl'), 'rb') as f:
